@@ -13,8 +13,7 @@ class Song
 
   end
 
-  def artists
-    @@artists << @artist
+  def self.artists
     @@artist.unique
   end
 
