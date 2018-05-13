@@ -14,7 +14,7 @@ class Song
   end
 
   def artists
-    @@artists << artist
+    @@artists << @artist
     @@artist.unique
   end
 
