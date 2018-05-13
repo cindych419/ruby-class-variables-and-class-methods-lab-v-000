@@ -23,7 +23,7 @@ class Song
     @@genres.uniq
   end
 
-  def self.count
+  def count
     @@count
   end
 
