@@ -22,7 +22,3 @@ class Song
 
 end
 
-song = Song.new 
-song.count = 1 // cont = 0 > count 1
-
-song_2 = Song.new cont 0
