@@ -14,10 +14,10 @@ class Song
   end
 
   def artists
-    @@artist << @artist
-    @@artist
+    @@artists << @artist
+    @@artists
   end
-  
+
   def self.count
     @@count
   end
