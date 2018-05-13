@@ -10,13 +10,10 @@ class Song
     @genre=genre
     @name=name
     @artist=artist
-
+    @artists << @artist
   end
 
-  def artists
-    @@artists << @artist
-    @@artists
-  end
+
 
   def self.count
     @@count
