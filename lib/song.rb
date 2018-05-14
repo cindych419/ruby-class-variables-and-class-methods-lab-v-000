@@ -32,11 +32,12 @@ class Song
     genre_count={}
 
     @@genres.each {|genre|
-
+      #if genre
 
       binding.pry}
 
   end
+
 
 
 end
