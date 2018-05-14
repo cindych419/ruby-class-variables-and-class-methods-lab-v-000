@@ -51,7 +51,7 @@ class Song
          #artist[artist]=1
       #end}
 
-        }
+        #}
 
 
 end
