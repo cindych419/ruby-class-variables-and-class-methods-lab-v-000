@@ -44,7 +44,7 @@ class Song
     artist_count={}
 
     @@artists.each {|artist|
-binding.pry
+
       if artist_count[artist]
          artist_count[artist] +=1
       else
