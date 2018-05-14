@@ -45,5 +45,5 @@ class Song
 
     @@artists.each {|artist|
 binding.pry
-#
-#
+
+end
